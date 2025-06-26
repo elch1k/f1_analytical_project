@@ -1,4 +1,4 @@
-from config import DRIVER_NAME, USERNAME, PASSWORD, HOST, PORT, DATABASE
+from etl_process.db_config import DRIVER_NAME, USERNAME, PASSWORD, HOST, PORT, DATABASE
 import pandas as pd
 from sqlalchemy.orm import sessionmaker
 from model import F1Driver, F1Team, F1Event, F1Result, F1Weather, F1FIAControl, F1Lap, F1Telemetry
